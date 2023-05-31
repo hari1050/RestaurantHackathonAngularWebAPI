@@ -1,0 +1,10 @@
+<div *ngFor="let res of itemList" class="card" style="width: 18rem;">
+    <img class="card-img-top" src="{{res.Image}}" height="200px" width="200px" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{res.Menu}}</h5>
+      <p class="card-text">{{res.Price}}</p>
+    </div>
+    <div class="card-body">
+      <a routerLink="" class="card-link">Add</a>
+    </div>
+</div>
